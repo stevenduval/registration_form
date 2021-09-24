@@ -36,7 +36,7 @@
                "label": "Specialty",
                "name": "SPECIALTY",
                "id": "SPECIALTY",
-               "type":"input"
+               "type":"select"
             }
          ]
       }
