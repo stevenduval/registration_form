@@ -36,7 +36,8 @@
                "label": "Specialty",
                "name": "SPECIALTY",
                "id": "SPECIALTY",
-               "type":"select"
+               "type": "select",
+               "options": ["Allergy & Immunology","Anesthesiology","Cardiology","Critical Care Medicine","Dermatology","Diagnostic Radiology","Emergency Medicine","Endocrinology Diabetes and Metabolism","Gastroenterology","Hematology","Infectious Disease","Internal Medicine","Medical Genetics","Nephrology","Neurology","Nuclear Medicine","Obstetrics & Gynecology","Oncology","Ophthalmology","Orthopedics","Otolaryngology","Pain Management","Pathology","Pediatrics","Physical Medicine & Rehabilitation","Plastic Surgery/Aesthetics","Preventive Medicine","Psychiatry","Pulmonology","Radiology","Rheumatology","Sleep Medicine","Sports Medicine","Surgery","Urology","Other"] 
             }
          ]
       }
