@@ -15,7 +15,7 @@
                "type":"input"
             },
             {
-               "label": "Email",
+               "label": "Email Address",
                "name": "EMAIL",
                "id": "EMAIL",
                "type":"input"
