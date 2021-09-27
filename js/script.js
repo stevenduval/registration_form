@@ -77,7 +77,7 @@ var generateForm = function generateForm(data) {
 
 // call in the data file to create the form
 fetch(
-  "https://raw.githubusercontent.com/stevenduval/registration_form/main/data.js"
+  "https://raw.githubusercontent.com/stevenduval/registration_form/main/js/data.js"
 )
   .then(function (response) {
     return response.json();
@@ -89,4 +89,3 @@ fetch(
       '<div class="loading" style="margin-top: 50vh; text-align: center;">Oops something went wrong. Please try again!</div>'
     );
   });
-
