@@ -21,7 +21,7 @@
                "type":"input"
             },
             {
-               "label": "Address",
+               "label": "Postal Address",
                "name": "ADDRESS",
                "id": "ADDRESS",
                "type":"input"
