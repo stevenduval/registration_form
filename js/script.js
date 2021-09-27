@@ -56,7 +56,7 @@ var generateForm = function generateForm(data) {
 				        .querySelector("select#".concat(field.name))
 						.insertAdjacentHTML(
 							"beforeend",
-							'<option value="' + option + '">' + option '</option>'
+							'<option value="' + option + '">' + option + '</option>'
 						);
 				}); 
             // else insert as input
