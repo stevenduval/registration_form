@@ -1,5 +1,4 @@
 var body = document.querySelector("body");
-var loading = document.querySelector(".loading");
 var current_datetime = new Date();
 var formatted_date =
 	current_datetime.getFullYear() +
@@ -22,6 +21,7 @@ body.insertAdjacentHTML(
 
 //generate form from JSON data
 var generateForm = function generateForm(data) {
+    var loading = document.querySelector(".loading");
 	//remove loading message
 	body.removeChild(loading);
 	//insert basic form layout onto page
