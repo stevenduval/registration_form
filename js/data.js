@@ -21,9 +21,27 @@
                "type":"input"
             },
             {
-               "label": "Address",
-               "name": "ADDRESS",
-               "id": "ADDRESS",
+               "label": "Street Address",
+               "name": "STREET_ADDRESS",
+               "id": "STREET_ADDRESS",
+               "type":"input"
+            },
+            {
+               "label": "City",
+               "name": "CITY",
+               "id": "CITY",
+               "type":"input"
+            },
+            {
+               "label": "State",
+               "name": "STATE",
+               "id": "STATE",
+               "type":"input"
+            },
+            {
+               "label": "Zip Code",
+               "name": "ZIP_CODE",
+               "id": "ZIP_CODE",
                "type":"input"
             },
             {
