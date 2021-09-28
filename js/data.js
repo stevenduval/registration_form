@@ -21,21 +21,9 @@
                "type":"input"
             },
             {
-               "label": "Street Address",
-               "name": "STREET_ADDRESS",
-               "id": "STREET_ADDRESS",
-               "type":"input"
-            },
-            {
-               "label": "City",
-               "name": "CITY",
-               "id": "CITY",
-               "type":"input"
-            },
-            {
-               "label": "Zip Code",
-               "name": "ZIP_CODE",
-               "id": "ZIP_CODE",
+               "label": "Address",
+               "name": "ADDRESS",
+               "id": "ADDRESS",
                "type":"input"
             },
             {
