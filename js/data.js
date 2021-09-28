@@ -21,9 +21,28 @@
                "type":"input"
             },
             {
-               "label": "Postal Address",
-               "name": "ADDRESS",
-               "id": "ADDRESS",
+               "label": "Street Address",
+               "name": "STREET_ADDRESS",
+               "id": "STREET_ADDRESS",
+               "type":"input"
+            },
+            {
+               "label": "City",
+               "name": "CITY",
+               "id": "CITY",
+               "type":"input"
+            },
+            {
+               "label": "State",
+               "name": "STATE",
+               "id": "STATE",
+               "type":"select",
+               "options": ['Alabama','Alaska','American Samoa','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Federated States of Micronesia','Florida','Georgia','Guam','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Marshall Islands','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Northern Mariana Islands','Ohio','Oklahoma','Oregon','Palau','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virgin Island','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
+            },
+            {
+               "label": "Zip Code",
+               "name": "ZIP_CODE",
+               "id": "ZIP_CODE",
                "type":"input"
             },
             {
