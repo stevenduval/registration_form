@@ -29,7 +29,7 @@ var generateForm = function generateForm(data) {
 		"afterbegin",
 		'<form method="post" action="https://hcpconnects4.com/pub/rf">\n' + 
         '<input type="hidden" id="DATE_TIME" name="DATE_TIME" required value=>\n' +        
-        '<input type="submit" value="SUBMIT">\n' +       
+        '<input type="submit" value="Register">\n' +       
         '<input type="hidden" name="_ri_" value="X0Gzc2X%3DAQpglLjHJlTQGiFLcI5zcE9k1NbzaFzeuN9S8k5M6azaqzbtIgngt8RVwjpnpgHlpgneHmgJoXX0Gzc2X%3DAQpglLjHJlTQGoFfEmOizeb1uI3aKBAuaqoG5M6azaqzbtIgngt8R">\n' + 
         '<input type="hidden" name="_ei_" value="EpBuMQsH7kSutDBZoqheBU0">\n' +
         '<input type="hidden" name="_di_" value="ddhkkqg279qc3cjtfgdvst5qlg0jo10timt7vbs3jumufjjn9u70">\n' +            
