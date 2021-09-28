@@ -81,6 +81,6 @@ fetch("https://raw.githubusercontent.com/stevenduval/registration_form/main/js/d
 	.then(generateForm)["catch"](function(error) {
 		return body.insertAdjacentHTML(
 			"afterbegin",
-			'<div class="loading" style="margin-top: 50vh; text-align: center;">Oops something went wrong. Please try again!</div>'
+			'<div class="loading" style="margin-top: 50vh; text-align: center;">Something went wrong. Please try again.</div>'
 		);
 	});
