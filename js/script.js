@@ -46,7 +46,7 @@ var generateForm = function generateForm(data) {
 					.querySelector("form")
 					.insertAdjacentHTML(
 				        "afterbegin",
-						'<input list="' + field.name + '" name="' + field.name + '" id="' + field.id + '" required>\n' +                
+						'<input list="' + field.name + '" name="' + field.name + '" id="' + field.id + '"  placeholder="' + field.label + '" required>\n' +                
                         '<datalist id="' + field.name + '">\n' +                
                         '</datalist><br><br>'
 				    );
@@ -56,7 +56,7 @@ var generateForm = function generateForm(data) {
 				        .querySelector("datalist#".concat(field.name))
 						.insertAdjacentHTML(
 							"beforeend",
-							'<option value="' + option + '">' + option + '</option>'
+							'<option value="' + option + '">'
 						);
 				}); 
             // else insert as input
