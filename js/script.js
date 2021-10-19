@@ -46,14 +46,14 @@ var generateForm = function generateForm(data) {
 					.querySelector("form")
 					.insertAdjacentHTML(
 				        "afterbegin",
-						'<input list="' + field.name + 's' + '" name="' + field.name + '" id="' + field.id + '"  required>\n' +                
-                        '<datalist id="' + field.name + 's' + '">\n' +                
+						'<input list="' + field.list + '" name="' + field.name + '" id="' + field.id + '"  placeholder="' + field.label + '" required>\n' +                
+                        '<datalist id="' + field.name + '">\n' +                
                         '</datalist><br><br>'
 				    );
                 // insert options into select box
 				field.options.map(function(option) {
 				    document
-				        .querySelector("datalist#".concat(field.name))
+				        .querySelector("datalist#".concat(field.list))
 						.insertAdjacentHTML(
 							"beforeend",
 							'<option value="' + option + '">'
