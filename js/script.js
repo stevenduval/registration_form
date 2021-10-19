@@ -46,7 +46,7 @@ var generateForm = function generateForm(data) {
 					.querySelector("form")
 					.insertAdjacentHTML(
 				        "afterbegin",
-						'<input list="' + field.name + '" name="' + field.name + '" id="' + field.id + '"  placeholder="' + field.label + '" required>\n' +                
+						'<input list="' + field.name + '" name="' + field.name + '" id="' + field.id + '"  required>\n' +                
                         '<datalist id="' + field.name + '">\n' +                
                         '</datalist><br><br>'
 				    );
