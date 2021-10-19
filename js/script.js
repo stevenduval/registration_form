@@ -47,7 +47,7 @@ var generateForm = function generateForm(data) {
 					.insertAdjacentHTML(
 				        "afterbegin",
 						'<input list="' + field.list + '" name="' + field.name + '" id="' + field.id + '"  placeholder="' + field.label + '" required>\n' +                
-                        '<datalist id="' + field.name + '">\n' +                
+                        '<datalist id="' + field.list + '">\n' +                
                         '</datalist><br><br>'
 				    );
                 // insert options into select box
